@@ -27,7 +27,7 @@ public class homePage {
          for (WebElement item : menuitems) {
             listItem.add(item.getText());
         }
-            return listItem;
+        return listItem;
     }
 
 
