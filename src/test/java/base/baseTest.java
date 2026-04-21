@@ -1,5 +1,6 @@
 package base;
 
+import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -13,6 +14,8 @@ public class baseTest  {
     public void setUp() {
         driver = new ChromeDriver();  
         driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
         driver.get("https://practicetestautomation.com/practice-test-login/");
     }
 

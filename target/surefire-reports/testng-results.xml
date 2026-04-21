@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-21T12:52:02 IST" name="Suite" finished-at="2026-04-21T12:52:21 IST" duration-ms="19288">
+    <groups>
+    </groups>
+    <test started-at="2026-04-21T12:52:02 IST" name="Test" finished-at="2026-04-21T12:52:21 IST" duration-ms="19288">
+      <class name="tests.secondtest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.secondtest@1de5f259]" started-at="2026-04-21T12:52:02 IST" name="setUp" finished-at="2026-04-21T12:52:07 IST" duration-ms="4768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMenuItems()[pri:0, instance:tests.secondtest@1de5f259]" started-at="2026-04-21T12:52:07 IST" name="verifyMenuItems" finished-at="2026-04-21T12:52:07 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenuItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.secondtest@1de5f259]" started-at="2026-04-21T12:52:07 IST" name="tearDown" finished-at="2026-04-21T12:52:07 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.secondtest -->
+      <class name="tests.sampleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.sampleTest@f5acb9d]" started-at="2026-04-21T12:52:07 IST" name="setUp" finished-at="2026-04-21T12:52:11 IST" duration-ms="3705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:1, instance:tests.sampleTest@f5acb9d]" started-at="2026-04-21T12:52:11 IST" name="verifyLogin" finished-at="2026-04-21T12:52:17 IST" duration-ms="6320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.sampleTest@f5acb9d]" started-at="2026-04-21T12:52:17 IST" name="tearDown" finished-at="2026-04-21T12:52:17 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.sampleTest@f5acb9d]" started-at="2026-04-21T12:52:17 IST" name="setUp" finished-at="2026-04-21T12:52:21 IST" duration-ms="3505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPageName()[pri:2, instance:tests.sampleTest@f5acb9d]" started-at="2026-04-21T12:52:21 IST" name="verifyPageName" finished-at="2026-04-21T12:52:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.sampleTest@f5acb9d]" started-at="2026-04-21T12:52:21 IST" name="tearDown" finished-at="2026-04-21T12:52:21 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.sampleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

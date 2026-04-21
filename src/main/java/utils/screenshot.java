@@ -9,9 +9,11 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 public class screenshot {
-     public static String captureScreenshot(WebDriver driver, String testName) {
-
-        File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+WebDriver driver;
+  
+     public  String captureScreenshot(String testName,   WebDriver driver) {
+TakesScreenshot ts =  ((TakesScreenshot) driver);
+        File src =ts.getScreenshotAs(OutputType.FILE);
         String path = System.getProperty("user.dir") + "/screenshots/" + testName + ".png";
 
         try {
