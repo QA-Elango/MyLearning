@@ -1,7 +1,6 @@
 package base;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.ITest;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.ITestContext;
